@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-7ynk
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/redhat-appstudio-qe/rs-demos-knss-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-7ynk
         imagePullPolicy: Always
         name: main
         ports:
